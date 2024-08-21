@@ -28,9 +28,9 @@ const Footer = () => {
                         <li className=' flex flex-col gap-5 font-DM_sans font-normal text-base mt-10 '>
                             <Link to = "/" className='hover:text-red-400'>Home</Link>
                             <Link to = "" className='hover:text-red-400'>About</Link>
-                            <Link to = "" className='hover:text-red-400'>Manu</Link>
+                            <Link to = "/manu" className='hover:text-red-400'>Manu</Link>
                             <Link to = "" className='hover:text-red-400'>Pricing</Link>
-                            <Link to = "" className='hover:text-red-400'>Blog</Link>
+                            <Link to = "/blog" className='hover:text-red-400'>Blog</Link>
                             <Link to = "/contact" className='hover:text-red-400'>Contact</Link>
                             <Link to = "" className='hover:text-red-400'>Delivery</Link>
                         </li>

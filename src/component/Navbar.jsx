@@ -31,7 +31,7 @@ const Navbar = () => {
                         <ul className='flex items-center gap-4 text-[#2C2F24] font-DM_sans font-medium text-base'>
                             <Link to="/" className='py-1 px-4 hover:bg-[#DBDFD0] transition duration-400 rounded-2xl'>Home</Link>
                             <Link to="" className='py-1 px-4 hover:bg-[#DBDFD0] transition duration-400 rounded-2xl'>About</Link>
-                            <Link to="" className='py-1 px-4 hover:bg-[#DBDFD0] transition duration-400 rounded-2xl'>Manu</Link>
+                            <Link to="/manu" className='py-1 px-4 hover:bg-[#DBDFD0] transition duration-400 rounded-2xl'>Manu</Link>
                             <Link to="" className='py-1 px-4 hover:bg-[#DBDFD0] transition duration-400 rounded-2xl'>Pages</Link>
                             <Link to="/contact" className='py-1 px-4 hover:bg-[#DBDFD0] rounded-2xl'>Contact</Link>
                         </ul>
