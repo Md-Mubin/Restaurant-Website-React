@@ -101,32 +101,32 @@ const Homepage = () => {
 
             {/* ================= Offer part ================= */}
             <section className='py-[120px] container'>
-                <h3 className='font-PlayfairD font-medium text-[55px] leadin-[60px]'>We also offer unique <br /> services for your events</h3>
+                <h3 className='font-PlayfairD font-medium text-[55px] leadin-[60px] text-center'>We also offer unique <br /> services for your events</h3>
                 <ul className='mt-16 flex justify-between'>
 
                     {/* --------- Caterinf Part --------- */}
-                    <ul className='flex flex-col justify-start gap-6 w-[306px]'>
+                    <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300'>
                         <li><img src="../public/service1.png" alt="service1_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Caterings</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
                     </ul>
 
                     {/* --------- Birthday Part --------- */}
-                    <ul className='flex flex-col justify-start gap-6 w-[306px]'>
+                    <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300'>
                         <li><img src="../public/service2.png" alt="service2_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Birthdays</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
                     </ul>
 
                     {/* --------- Weddings Part --------- */}
-                    <ul className='flex flex-col justify-start gap-6 w-[306px]'>
+                    <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300'>
                         <li><img src="../public/service3.png" alt="service3_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Weddings</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
                     </ul>
 
                     {/* --------- Events Part --------- */}
-                    <ul className='flex flex-col justify-start gap-6 w-[306px]'>
+                    <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300'>
                         <li><img src="../public/service4.png" alt="service4_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Events</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
@@ -140,10 +140,10 @@ const Homepage = () => {
 
                     {/* ---------- Images ---------- */}
                     <ul className='flex gap-6'>
-                        <li><img src="../public/chef.png" alt="chef_image" /></li>
+                        <li className='hover:scale-105 duration-300'><img src="../public/chef.png" alt="chef_image" /></li>
                         <li className='mt-[30px] flex flex-col gap-6'>
-                            <img src="../public/sour-curry.png" alt="sour_curry_image" />
-                            <img src="../public/iron-salad.png" alt="iron_salad_image" />
+                            <img src="../public/sour-curry.png" alt="sour_curry_image" className='hover:scale-105 duration-300' />
+                            <img src="../public/iron-salad.png" alt="iron_salad_image" className='hover:scale-105 duration-300' />
                         </li>
                     </ul>
 
@@ -170,7 +170,7 @@ const Homepage = () => {
                 <div className='mt-16 flex justify-between '>
 
                     {/* ------ reviewer ------ */}
-                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8'>
+                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8 hover:shadow-[inset_5px_5px_20px_rgba(0,0,0,0.2)] rounded-2xl'>
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“The best restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.</li>
                         <ul className='flex gap-5'>
@@ -183,7 +183,7 @@ const Homepage = () => {
                     </ul>
                     
                     {/* ------ reviewer ------ */}
-                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8'>
+                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8 hover:shadow-[inset_5px_5px_20px_rgba(0,0,0,0.2)] rounded-2xl'>
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“Simply delicious”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</li>
                         <ul className='flex gap-5'>
@@ -196,7 +196,7 @@ const Homepage = () => {
                     </ul>
 
                     {/* ------ reviewer ------ */}
-                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8'>
+                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8 hover:shadow-[inset_5px_5px_20px_rgba(0,0,0,0.2)] rounded-2xl'>
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“One of a kind restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.</li>
                         <ul className='flex gap-5'>
@@ -237,7 +237,7 @@ const Homepage = () => {
                     <div className='w-[640px] flex flex-wrap gap-6'>
 
                         {/* -------- items -------- */}
-                        <ul className='w-[306px] rounded-xl border-2'>
+                        <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300'>
                             <img src="../public/fries.png" alt="fries_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>
@@ -246,7 +246,7 @@ const Homepage = () => {
                         </ul>
 
                         {/* -------- items -------- */}
-                        <ul className='w-[306px] rounded-xl border-2'>
+                        <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300'>
                             <img src="../public/nugget.png" alt="nugget_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>
@@ -255,7 +255,7 @@ const Homepage = () => {
                         </ul>
 
                         {/* -------- items -------- */}
-                        <ul className='w-[306px] rounded-xl border-2'>
+                        <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300'>
                             <img src="../public/chocake.png" alt="chocake_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>
@@ -264,7 +264,7 @@ const Homepage = () => {
                         </ul>
 
                         {/* -------- items -------- */}
-                        <ul className='w-[306px] rounded-xl border-2'>
+                        <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300'>
                             <img src="../public/pizza.png" alt="pizza_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>

@@ -145,7 +145,7 @@ const About = () => {
                 <div className='mt-16 flex justify-between '>
 
                     {/* ------ reviewer ------ */}
-                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8'>
+                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8 hover:shadow-[inset_5px_5px_20px_rgba(0,0,0,0.2)] rounded-2xl'>
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“The best restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.</li>
                         <ul className='flex gap-5'>
@@ -158,7 +158,7 @@ const About = () => {
                     </ul>
 
                     {/* ------ reviewer ------ */}
-                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8'>
+                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8 hover:shadow-[inset_5px_5px_20px_rgba(0,0,0,0.2)] rounded-2xl'>
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“Simply delicious”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</li>
                         <ul className='flex gap-5'>
@@ -171,7 +171,7 @@ const About = () => {
                     </ul>
 
                     {/* ------ reviewer ------ */}
-                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8'>
+                    <ul className='w-[416px] p-[35px] flex flex-col bg-[#F9F9F7] gap-8 hover:shadow-[inset_5px_5px_20px_rgba(0,0,0,0.2)] rounded-2xl'>
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“One of a kind restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.</li>
                         <ul className='flex gap-5'>
