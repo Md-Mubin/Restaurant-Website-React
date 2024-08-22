@@ -1,6 +1,11 @@
 // ==================== All Import
-import React     from 'react'
-import { Link }  from 'react-router-dom'
+import React            from 'react'
+import { Link }         from 'react-router-dom'
+import footer_logo      from '../assets/footerLogo.png'
+import footer_img1      from '../assets/footerImg1.png'
+import footer_img2      from '../assets/footerImg2.png'
+import footer_img3      from '../assets/footerImg3.png'
+import footer_img4      from '../assets/footerImg4.png'
 import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
@@ -13,7 +18,7 @@ const Footer = () => {
 
                         {/* ------- Footer Logo ------- */}
                         <li className='flex items-center '>
-                            <img src="../public/footerLogo.png" alt="footer_logo_Image" />
+                            <img src={footer_logo} alt="footer_logo_Image" />
                             <h3 className='ml-3 font-PlayfairD font-semibold text-[33px] italic leading-[30px]'>Bistro Biliss</h3>
                         </li>
 
@@ -62,10 +67,10 @@ const Footer = () => {
                     <ul>
                         <a href='#' className='text-white font-DM_sans font-bold text-base hover:text-red-300 duration-200'>Follow Us On Instagram</a>
                         <li className='w-[405px] mt-10 flex flex-wrap gap-3'>
-                            <img src="../public/footerImg1.png" alt="footer_img1" className='hover:scale-105 duration-300' />
-                            <img src="../public/footerImg2.png" alt="footer_img2" className='hover:scale-105 duration-300' />
-                            <img src="../public/footerImg3.png" alt="footer_img3" className='hover:scale-105 duration-300' />
-                            <img src="../public/footerImg4.png" alt="footer_img4" className='hover:scale-105 duration-300' />
+                            <img src={footer_img1} alt="footer_img1" className='hover:scale-105 duration-300' />
+                            <img src={footer_img2} alt="footer_img2" className='hover:scale-105 duration-300' />
+                            <img src={footer_img3} alt="footer_img3" className='hover:scale-105 duration-300' />
+                            <img src={footer_img4} alt="footer_img4" className='hover:scale-105 duration-300' />
                         </li>
                     </ul>
                 </ul>

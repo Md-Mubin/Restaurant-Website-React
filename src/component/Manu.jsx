@@ -1,7 +1,24 @@
 // ==================== All Import
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import React              from 'react'
+import Navbar             from './Navbar'
+import Footer             from './Footer'
+import friedEggs_img      from '../assets/friedEggs.png'
+import hawaiPizza_img     from '../assets/hwaiPizza.png'
+import cocktail_img       from '../assets/cocktail.png'
+import butterCake_img     from '../assets/butterCake.png'
+import lemonade_img       from '../assets/lemonade.png'
+import chocoIce_img       from '../assets/chocoIce.png'
+import chesseBurger_img   from '../assets/cheeseBurger.png'
+import waffle_img         from '../assets/waffle.png'
+import uberEats           from '../assets/uberEats.png'
+import grubHub            from '../assets/grubHub.png'
+import postMates          from '../assets/postMates.png'
+import doorDash           from '../assets/doorDash.png'
+import foodPanda          from '../assets/foodPanda.png'
+import delivero           from '../assets/delivero.png'
+import inscart            from '../assets/inscart.png'
+import justeat            from '../assets/justeat.png'
+import didifood           from '../assets/didifood.png'
 
 const Manu = () => {
     return (
@@ -29,7 +46,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/friedEggs.png" alt="fried_eggs_image" /></li>
+                    <li><img src={friedEggs_img} alt="fried_eggs_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 9.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Fried Eggs</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -37,7 +54,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/hwaiPizza.png" alt="hwaipizza_image" /></li>
+                    <li><img src={hawaiPizza_img} alt="hwaipizza_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 15.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Hawaiian Pizza</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -45,7 +62,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/cocktail.png" alt="cocktail_image" /></li>
+                    <li><img src={cocktail_img} alt="cocktail_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 7.25</li>
                     <li className='font-DM_sans font-bold text-xl'>Martinez Cocktail</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -53,7 +70,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/butterCake.png" alt="butter_cake_image" /></li>
+                    <li><img src={butterCake_img} alt="butter_cake_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 20.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Butterscotch Cake</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -61,7 +78,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/lemonade.png" alt="lemonade_image" /></li>
+                    <li><img src={lemonade_img} alt="lemonade_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 5.89</li>
                     <li className='font-DM_sans font-bold text-xl'>Mint Lemonade</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -69,7 +86,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/chocoIce.png" alt="chocoIce_image" /></li>
+                    <li><img src={chocoIce_img} alt="chocoIce_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 18.05</li>
                     <li className='font-DM_sans font-bold text-xl'>Chocolate Icecream</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -77,7 +94,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/cheeseBurger.png" alt="cheese_urger_image" /></li>
+                    <li><img src={chesseBurger_img} alt="cheese_burger_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 12.55</li>
                     <li className='font-DM_sans font-bold text-xl'>Cheese Burger</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -85,7 +102,7 @@ const Manu = () => {
 
                 {/* ------- items ------- */}
                 <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
-                    <li><img src="../public/waffle.png" alt="waffle_image" /></li>
+                    <li><img src={waffle_img} alt="waffle_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 12.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Classic Waffles</li>
                     <li className='px-[30px] text-center font-DM_sans font-normal text-base'>Made with eggs, lettuce, salt, oil and other ingredients.</li>
@@ -102,15 +119,15 @@ const Manu = () => {
 
                     {/* ------- All The Apps for Order ------- */}
                     <ul className='w-[830px] flex flex-wrap justify-center'>
-                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src="../public/uberEats.png"  alt="ubereats_image" /></a>
-                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src="../public/grubHub.png"   alt="grubhub_image" /></a>
-                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src="../public/postMates.png" alt="postMates_image" /></a>
-                        <a href='#' className='w-[260px] hover:scale-125 transition duration-300'><img src="../public/doorDash.png"  alt="doorDash_image" /></a>
-                        <a href='#' className='w-[260px] hover:scale-125 transition duration-300'><img src="../public/foodPanda.png" alt="foodPanda_image" /></a>
-                        <a href='#' className='w-[260px] hover:scale-125 transition duration-300'><img src="../public/delivero.png"  alt="delivero_image" /></a>
-                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src="../public/inscart.png"   alt="inscart_image" /></a>
-                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src="../public/justeat.png"   alt="justeat_image" /></a>
-                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src="../public/didifood.png"  alt="didifood_image" /></a>
+                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src={uberEats}  alt="ubereats_image" /></a>
+                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src={grubHub}   alt="grubhub_image" /></a>
+                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src={postMates} alt="postMates_image" /></a>
+                        <a href='#' className='w-[260px] hover:scale-125 transition duration-300'><img src={doorDash}  alt="doorDash_image" /></a>
+                        <a href='#' className='w-[260px] hover:scale-125 transition duration-300'><img src={foodPanda} alt="foodPanda_image" /></a>
+                        <a href='#' className='w-[260px] hover:scale-125 transition duration-300'><img src={delivero}  alt="delivero_image" /></a>
+                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src={inscart}   alt="inscart_image" /></a>
+                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src={justeat}   alt="justeat_image" /></a>
+                        <a href='#' className='w-[220px] hover:scale-125 transition duration-300'><img src={didifood}  alt="didifood_image" /></a>
                     </ul>
                 </ul>
             </section>

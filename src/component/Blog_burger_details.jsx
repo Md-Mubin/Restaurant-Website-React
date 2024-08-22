@@ -1,7 +1,12 @@
 // ==================== All Import
-import React   from 'react'
-import Navbar  from './Navbar'
-import Footer  from './Footer'
+import React       from 'react'
+import Navbar      from './Navbar'
+import Footer      from './Footer'
+import Burger_img  from '../assets/burger.png'
+import Blog1       from '../assets/blog1.png'
+import Blog2       from '../assets/blog2.png'
+import Blog3       from '../assets/blog3.png'
+import Blog4       from '../assets/blog4.png'
 
 const Blog_burger_details = () => {
     return (
@@ -12,7 +17,7 @@ const Blog_burger_details = () => {
             {/* ================= Item's Images ================= */}
             <section className='container mt-12 text-center'>
                 <h1 className='font-PlayfairD font-medium text-[55px] leading-[60px]'>The secret tips & tricks to prepare a perfect burger & pizza for our customers</h1>
-                <img src="../public/burger.png" alt="burger_image" className='w-full mt-[62px]' />
+                <img src={Burger_img} alt="burger_image" className='w-full mt-[62px]' />
             </section>
 
             {/* ================= Making part ================= */}
@@ -62,28 +67,28 @@ const Blog_burger_details = () => {
 
                     {/* ------ items ------ */}
                     <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
-                        <li><img src="../public/blog1.png" alt="blog_image" /></li>
+                        <li><img src={Blog1} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>How to prepare a delicious gluten free sushi</li>
                     </ul>
 
                     {/* ------ items ------ */}
                     <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
-                        <li><img src="../public/blog2.png" alt="blog_image" /></li>
+                        <li><img src={Blog2} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>Exclusive baking lessons from the pastry king</li>
                     </ul>
 
                     {/* ------ items ------ */}
                     <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
-                        <li><img src="../public/blog3.png" alt="blog_image" /></li>
+                        <li><img src={Blog3} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>How to prepare the perfect fries in an air fryer</li>
                     </ul>
 
                     {/* ------ items ------ */}
                     <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
-                        <li><img src="../public/blog4.png" alt="blog_image" /></li>
+                        <li><img src={Blog4} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>How to prepare delicious chicken tenders</li>
                     </ul>

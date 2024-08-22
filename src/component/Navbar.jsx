@@ -2,8 +2,9 @@
 import React            from 'react'
 import { IoIosMail }    from 'react-icons/io'
 import { Link }         from 'react-router-dom'
+import ScrollToTop      from './ScrollToTop'
+import Logo             from '../assets/Logo.png'
 import { FaFacebookF, FaGithub, FaInstagram, FaPhone, FaTwitter } from 'react-icons/fa'
-import ScrollToTop from './ScrollToTop'
 
 const Navbar = () => {
     return (
@@ -36,7 +37,7 @@ const Navbar = () => {
 
                         {/* ---------- Logo Part ---------- */}
                         <Link to = "/" className='flex gap-4 items-center '>
-                            <img src="/public/Logo.png" alt="Logo_image" />
+                            <img src={Logo} alt="Logo_image" />
                             <h1 className='font-PlayfairD font-semibold text-[42px] italic text-[#474747] '>Bistro Bliss</h1>
                         </Link>
 
