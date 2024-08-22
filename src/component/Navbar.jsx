@@ -36,7 +36,7 @@ const Navbar = () => {
 
                         {/* ---------- Logo Part ---------- */}
                         <Link to = "/" className='flex gap-4 items-center '>
-                            <img src="../public/Logo.png" alt="Logo_image" />
+                            <img src="/public/Logo.png" alt="Logo_image" />
                             <h1 className='font-PlayfairD font-semibold text-[42px] italic text-[#474747] '>Bistro Bliss</h1>
                         </Link>
 
