@@ -1,6 +1,6 @@
 # Restaurant Website
 
-# On Going Project
+# Live Deno: https://bisto-bliss-restaurant-web-react.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
