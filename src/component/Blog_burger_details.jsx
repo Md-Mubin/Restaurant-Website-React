@@ -66,28 +66,28 @@ const Blog_burger_details = () => {
                 <div className='mt-[72px] flex justify-between'>
 
                     {/* ------ items ------ */}
-                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
+                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800 will-change-transform'>
                         <li><img src={Blog1} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>How to prepare a delicious gluten free sushi</li>
                     </ul>
 
                     {/* ------ items ------ */}
-                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
+                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800 will-change-transform'>
                         <li><img src={Blog2} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>Exclusive baking lessons from the pastry king</li>
                     </ul>
 
                     {/* ------ items ------ */}
-                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
+                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800 will-change-transform'>
                         <li><img src={Blog3} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>How to prepare the perfect fries in an air fryer</li>
                     </ul>
 
                     {/* ------ items ------ */}
-                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800'>
+                    <ul className='w-[306px] flex flex-col gap-5 border-2 rounded-xl pb-[26px] hover:scale-105 transition duration-800 will-change-transform'>
                         <li><img src={Blog4} alt="blog_image" /></li>
                         <li className='ml-6 font-DM_sans font-medium text-sm'>January 3, 2023</li>
                         <li className='px-6 font-DM_sans font-medium text-xl'>How to prepare delicious chicken tenders</li>

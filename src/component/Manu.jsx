@@ -45,7 +45,7 @@ const Manu = () => {
             <section className='container mt-[88px] pb-[132px] flex flex-wrap justify-center gap-6'>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={friedEggs_img} alt="fried_eggs_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 9.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Fried Eggs</li>
@@ -53,7 +53,7 @@ const Manu = () => {
                 </ul>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={hawaiPizza_img} alt="hwaipizza_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 15.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Hawaiian Pizza</li>
@@ -61,7 +61,7 @@ const Manu = () => {
                 </ul>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={cocktail_img} alt="cocktail_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 7.25</li>
                     <li className='font-DM_sans font-bold text-xl'>Martinez Cocktail</li>
@@ -69,7 +69,7 @@ const Manu = () => {
                 </ul>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={butterCake_img} alt="butter_cake_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 20.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Butterscotch Cake</li>
@@ -77,7 +77,7 @@ const Manu = () => {
                 </ul>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={lemonade_img} alt="lemonade_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 5.89</li>
                     <li className='font-DM_sans font-bold text-xl'>Mint Lemonade</li>
@@ -85,7 +85,7 @@ const Manu = () => {
                 </ul>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={chocoIce_img} alt="chocoIce_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 18.05</li>
                     <li className='font-DM_sans font-bold text-xl'>Chocolate Icecream</li>
@@ -93,7 +93,7 @@ const Manu = () => {
                 </ul>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={chesseBurger_img} alt="cheese_burger_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 12.55</li>
                     <li className='font-DM_sans font-bold text-xl'>Cheese Burger</li>
@@ -101,7 +101,7 @@ const Manu = () => {
                 </ul>
 
                 {/* ------- items ------- */}
-                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400'>
+                <ul className='w-[306px] pb-[34px] flex flex-col items-center gap-6 border-2 rounded-xl hover:scale-105 transition duration-400 will-change-transform'>
                     <li><img src={waffle_img} alt="waffle_image" /></li>
                     <li className='font-DM_sans font-bold text-2xl text-[#AD343E]'>$ 12.99</li>
                     <li className='font-DM_sans font-bold text-xl'>Classic Waffles</li>

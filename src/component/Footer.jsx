@@ -17,10 +17,10 @@ const Footer = () => {
                     <ul className='flex flex-col gap-[30px] text-white'>
 
                         {/* ------- Footer Logo ------- */}
-                        <li className='flex items-center '>
+                        <Link to = '/' className='flex items-center '>
                             <img src={footer_logo} alt="footer_logo_Image" />
                             <h3 className='ml-3 font-PlayfairD font-semibold text-[33px] italic leading-[30px]'>Bistro Biliss</h3>
-                        </li>
+                        </Link>
 
                         {/* ------- Footer Info ------- */}
                         <li>

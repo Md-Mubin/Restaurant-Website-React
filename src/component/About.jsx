@@ -109,25 +109,25 @@ const About = () => {
                         <ul className='flex flex-wrap gap-6 mt-[60px]'>
 
                             {/* ---------- location part ---------- */}
-                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300'>
+                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300 will-change-transform'>
                                 <li className='font-PlayfairD font-medium text-[55px]'>3</li>
                                 <li className='font-DM_sans font-medium text-lg'>Locations</li>
                             </ul>
 
                             {/* ---------- founded part ---------- */}
-                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300'>
+                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300 will-change-transform'>
                                 <li className='font-PlayfairD font-medium text-[55px]'>1995</li>
                                 <li className='font-DM_sans font-medium text-lg'>Founded</li>
                             </ul>
 
                             {/* ---------- staff part ---------- */}
-                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300'>
+                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300 will-change-transform'>
                                 <li className='font-PlayfairD font-medium text-[55px]'>65+</li>
                                 <li className='font-DM_sans font-medium text-lg'>Staff Members</li>
                             </ul>
 
                             {/* ---------- satisfied customer part ---------- */}
-                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300'>
+                            <ul className='w-[290px] h-[175px] flex flex-col items-center justify-center gap-5 border-1 bg-white rounded-xl hover:scale-105 transition duration-300 will-change-transform'>
                                 <li className='font-PlayfairD font-medium text-[55px]'>100%</li>
                                 <li className='font-DM_sans font-medium text-lg'>Satisfied Customers</li>
                             </ul>
