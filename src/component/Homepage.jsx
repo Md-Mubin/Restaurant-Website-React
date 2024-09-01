@@ -2,23 +2,6 @@
 import React                     from 'react'
 import Navbar                    from './Navbar'
 import Footer                    from './Footer'
-import BannerImage               from '../assets/banner_bg.png'
-import VisitImg                  from '../assets/visit_Image.png'
-import Service1_img              from '../assets/service1.png'
-import Service2_img              from '../assets/service2.png'
-import Service3_img              from '../assets/service3.png'
-import Service4_img              from '../assets/service4.png'
-import Chef_img                  from '../assets/chef.png'
-import Sour_curry_img            from '../assets/sour-curry.png'
-import Iron_salad_img            from '../assets/iron-salad.png'
-import Reviewer1_img             from '../assets/reviewer1.png'
-import Reviewer2_img             from '../assets/reviewer2.png'
-import Reviewer3_img             from '../assets/reviewer3.png'
-import Burger_img                from '../assets/burger.png'
-import Fries_img                 from '../assets/fries.png'
-import Nugget_img                from '../assets/nugget.png'
-import Chocake_img               from '../assets/chocake.png'
-import Pizza_img                 from '../assets/pizza.png'
 import { Link }                  from 'react-router-dom'
 import { FaPhone }               from 'react-icons/fa'
 import { FiCoffee }              from 'react-icons/fi'
@@ -36,7 +19,7 @@ const Homepage = () => {
 
             {/* ================= Banner part ================= */}
             <section className='relative'>
-                <img src={BannerImage} alt="banner_image" className='bg-cover w-full' />
+                <img src='/banner_bg.png' alt="banner_image" className='bg-cover w-full' />
                 <header className='absolute top-[200px] left-[690px] text-center'>
 
                     {/* --------- Header --------- */}
@@ -97,7 +80,7 @@ const Homepage = () => {
 
                     {/* ----------- About Contact Part ----------- */}
                     <ul>
-                        <img src={VisitImg} alt="visit_image" />
+                        <img src='/visit_Image.png' alt="visit_image" />
                         <ul className='p-[50px] bg-[#474747] rounded-xl flex flex-col items-start w-[410px] text-white gap-[25px] translate-x-[240px] translate-y-[-250px]'>
                             <li className='mb-5 font-DM_sans font-bold text-2xl'>Come Visit With Us</li>
                             <a href='#' className='font-DM_sans text-base font-normal flex items-center hover:text-red-200'>< FaPhone className='text-xl mr-5' />(414) 857 - 0107</a>
@@ -123,28 +106,28 @@ const Homepage = () => {
 
                     {/* --------- Caterinf Part --------- */}
                     <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300 will-change-transform'>
-                        <li><img src={Service1_img} alt="service1_image" /></li>
+                        <li><img src='/service1.png' alt="service1_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Caterings</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
                     </ul>
 
                     {/* --------- Birthday Part --------- */}
                     <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300 will-change-transform'>
-                        <li><img src={Service2_img} alt="service2_image" /></li>
+                        <li><img src='/service2.png' alt="service2_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Birthdays</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
                     </ul>
 
                     {/* --------- Weddings Part --------- */}
                     <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300 will-change-transform'>
-                        <li><img src={Service3_img} alt="service3_image" /></li>
+                        <li><img src='/service3.png' alt="service3_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Weddings</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
                     </ul>
 
                     {/* --------- Events Part --------- */}
                     <ul className='flex flex-col justify-start gap-6 w-[306px] hover:scale-105 duration-300 will-change-transform'>
-                        <li><img src={Service4_img} alt="service4_image" /></li>
+                        <li><img src='/service4.png' alt="service4_image" /></li>
                         <li className='font-DM_sans font-bold text-2xl'>Events</li>
                         <li className='font-DM_sans font-normal text-base'>In the new era of technology we look in the future with certainty for life.</li>
                     </ul>
@@ -158,11 +141,11 @@ const Homepage = () => {
                     {/* ---------- Images ---------- */}
                     <ul className='flex gap-6'>
                         <li className='hover:scale-105 duration-300'>
-                            <img src={Chef_img} alt="chef_image" />
+                            <img src='/chef.png' alt="chef_image" />
                         </li>
                         <li className='mt-[30px] flex flex-col gap-6'>
-                            <img src={Sour_curry_img} alt="sour_curry_image" className='hover:scale-105 duration-300' />
-                            <img src={Iron_salad_img} alt="iron_salad_image" className='hover:scale-105 duration-300' />
+                            <img src='/sour-curry.png' alt="sour_curry_image" className='hover:scale-105 duration-300' />
+                            <img src='/iron-salad.png' alt="iron_salad_image" className='hover:scale-105 duration-300' />
                         </li>
                     </ul>
 
@@ -193,7 +176,7 @@ const Homepage = () => {
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“The best restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.</li>
                         <ul className='flex gap-5'>
-                            <img src={Reviewer1_img} alt="reviewer_img" />
+                            <img src='/reviewer1.png' alt="reviewer_img" />
                             <ul className='flex flex-col justify-center gap-1'>
                                 <li className='font-DM_sans font-bold text-base'>Sophire Robson</li>
                                 <li className='font-DM_sans font-normal text-base'>Los Angeles, CA</li>
@@ -206,7 +189,7 @@ const Homepage = () => {
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“Simply delicious”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</li>
                         <ul className='flex gap-5'>
-                            <img src={Reviewer2_img} alt="reviewer_img" />
+                            <img src='/reviewer2.png' alt="reviewer_img" />
                             <ul className='flex flex-col justify-center gap-1'>
                                 <li className='font-DM_sans font-bold text-base'>Matt Cannon</li>
                                 <li className='font-DM_sans font-normal text-base'>San Diego, CA</li>
@@ -219,7 +202,7 @@ const Homepage = () => {
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“One of a kind restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.</li>
                         <ul className='flex gap-5'>
-                            <img src={Reviewer3_img} alt="reviewer_img" />
+                            <img src='/reviewer3.png' alt="reviewer_img" />
                             <ul className='flex flex-col justify-center gap-1'>
                                 <li className='font-DM_sans font-bold text-base'>Andy Smith</li>
                                 <li className='font-DM_sans font-normal text-base'>San Francisco, CA</li>
@@ -245,7 +228,7 @@ const Homepage = () => {
 
                     {/* -------- items -------- */}
                     <Link to = "/blog/burger_details" className='w-[836px] rounded-xl border-2 hover:scale-105 transition duration-200 will-change-transform'>
-                        <img src={Burger_img} alt="burger_image" className='w-full'/>
+                        <img src='/burger.png' alt="burger_image" className='w-full'/>
                         <ul className='py-12 px-8 flex flex-col gap-[15px]'>
                             <li className='font-DM_sans font-medium text-base text-[#737865]'>January 3, 2023</li>
                             <li className='font-DM_sans font-medium text-xl'>The secret tips & tricks to prepare a perfect burger & pizza for our customers</li>
@@ -257,7 +240,7 @@ const Homepage = () => {
 
                         {/* -------- items -------- */}
                         <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300 will-change-transform'>
-                            <img src={Fries_img} alt="fries_image" />
+                            <img src='/fries.png' alt="fries_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>
                                 <li className='mt-3 font-DM_sans font-medium text-xl'>How to prepare the perfect french fries in an air fryer</li>
@@ -266,7 +249,7 @@ const Homepage = () => {
 
                         {/* -------- items -------- */}
                         <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300 will-change-transform'>
-                            <img src={Nugget_img} alt="nugget_image" />
+                            <img src='/nugget.png' alt="nugget_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>
                                 <li className='mt-3 font-DM_sans font-medium text-xl'>How to prepare delicious chicken tenders</li>
@@ -275,7 +258,7 @@ const Homepage = () => {
 
                         {/* -------- items -------- */}
                         <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300 will-change-transform'>
-                            <img src={Chocake_img} alt="chocake_image" />
+                            <img src='/chocake.png' alt="chocake_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>
                                 <li className='mt-3 font-DM_sans font-medium text-xl'>7 delicious cheesecake recipes you can prepare</li>
@@ -284,7 +267,7 @@ const Homepage = () => {
 
                         {/* -------- items -------- */}
                         <ul className='w-[306px] rounded-xl border-2 hover:scale-105 duration-300 will-change-transform'>
-                            <img src={Pizza_img} alt="pizza_image" />
+                            <img src='/pizza.png' alt="pizza_image" />
                             <ul className='p-[25px]'>
                                 <li className='font-DM_sans font-medium text-sm text-[#737865]'>January 3, 2023</li>
                                 <li className='mt-3 font-DM_sans font-medium text-xl'>5 great pizza restaurants you should visit this city</li>

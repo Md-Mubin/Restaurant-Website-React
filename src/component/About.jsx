@@ -2,12 +2,6 @@
 import React                     from 'react'
 import Navbar                    from './Navbar'
 import Footer                    from './Footer'
-import aboutBanner_img           from '../assets/aboutBanner.png'
-import aboutVideo                from '../assets/aboutVideo.png'
-import cooking_img               from '../assets/cooking.png'
-import reviewer1_img             from '../assets/reviewer1.png'
-import reviewer2_img             from '../assets/reviewer2.png'
-import reviewer3_img             from '../assets/reviewer3.png'
 import { BsAlarm }               from 'react-icons/bs'
 import { IoIosMail }             from 'react-icons/io'
 import { GrMultiple }            from 'react-icons/gr'
@@ -26,7 +20,7 @@ const About = () => {
 
                 {/* ---------- About Banner Part ---------- */}
                 <ul>
-                    <img src={aboutBanner_img} alt="banner_image" />
+                    <img src="/aboutBanner.png" alt="banner_image" />
                     <ul className='p-[50px] bg-[#474747] rounded-xl flex flex-col items-start w-[410px] text-white gap-[25px] translate-x-[300px] translate-y-[-200px]'>
                         <li className='mb-5 font-DM_sans font-bold text-2xl'>Come Visit With Us</li>
                         <a href='#' className='font-DM_sans text-base font-normal flex items-center hover:text-red-200'>
@@ -60,7 +54,7 @@ const About = () => {
 
             {/* ================= About Video Part ================= */}
             <section className='w-full relative'>
-                <img src={aboutVideo} alt="about_video_image" className='w-full bg-cover' />
+                <img src="/aboutVideo.png" alt="about_video_image" className='w-full bg-cover' />
                 <ul className='absolute top-[40%] left-[50%]'>
                     <button className='p-5 bg-white rounded-full text-xl hover:scale-125 transition duration-300'><FaGooglePlay /></button>
                     <li className='w-[596px] text-center font-PlayfairD font-medium text-[55px] leading-[60px] mt-[34px] absolute top-[60%] left-[-250px] text-white'>Feel the authentic & original taste from us</li>
@@ -136,7 +130,7 @@ const About = () => {
 
                     {/* ---------- inside part image ---------- */}
                     <ul>
-                        <img src={cooking_img} alt="cooking_image" />
+                        <img src="/cooking.png" alt="cooking_image" />
                     </ul>
                 </div>
             </section>
@@ -155,7 +149,7 @@ const About = () => {
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“The best restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.</li>
                         <ul className='flex gap-5'>
-                            <img src={reviewer1_img} alt="reviewer_img" />
+                            <img src="/reviewer1.png" alt="reviewer_img" />
                             <ul className='flex flex-col justify-center gap-1'>
                                 <li className='font-DM_sans font-bold text-base'>Sophire Robson</li>
                                 <li className='font-DM_sans font-normal text-base'>Los Angeles, CA</li>
@@ -168,7 +162,7 @@ const About = () => {
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“Simply delicious”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</li>
                         <ul className='flex gap-5'>
-                            <img src={reviewer2_img} alt="reviewer_img" />
+                            <img src="/reviewer2.png" alt="reviewer_img" />
                             <ul className='flex flex-col justify-center gap-1'>
                                 <li className='font-DM_sans font-bold text-base'>Matt Cannon</li>
                                 <li className='font-DM_sans font-normal text-base'>San Diego, CA</li>
@@ -181,7 +175,7 @@ const About = () => {
                         <li className='font-DM_sans font-bold text-2xl leading-[30px] text-[#AD343E]'>“One of a kind restaurant”</li>
                         <li className='font-DM_sans font-normal text-lg leading-7'>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.</li>
                         <ul className='flex gap-5'>
-                            <img src={reviewer3_img} alt="reviewer_img" />
+                            <img src="/reviewer3.png" alt="reviewer_img" />
                             <ul className='flex flex-col justify-center gap-1'>
                                 <li className='font-DM_sans font-bold text-base'>Andy Smith</li>
                                 <li className='font-DM_sans font-normal text-base'>San Francisco, CA</li>
