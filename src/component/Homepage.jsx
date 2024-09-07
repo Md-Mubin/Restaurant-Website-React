@@ -1,7 +1,5 @@
 // ==================== All Import
 import React                     from 'react'
-import Navbar                    from './Navbar'
-import Footer                    from './Footer'
 import { Link }                  from 'react-router-dom'
 import { FaPhone }               from 'react-icons/fa'
 import { FiCoffee }              from 'react-icons/fi'

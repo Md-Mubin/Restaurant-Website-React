@@ -24,6 +24,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/burger_details" element={<Blog_burger_details />} />
         </Route>
+
       </Route>
     )
   )
