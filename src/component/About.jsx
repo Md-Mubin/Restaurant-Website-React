@@ -1,7 +1,5 @@
 // ==================== All Import
 import React                     from 'react'
-import Navbar                    from './Navbar'
-import Footer                    from './Footer'
 import { BsAlarm }               from 'react-icons/bs'
 import { IoIosMail }             from 'react-icons/io'
 import { GrMultiple }            from 'react-icons/gr'
@@ -12,9 +10,6 @@ import { FaGooglePlay, FaPhone } from 'react-icons/fa'
 const About = () => {
     return (
         <>
-            {/* ================= Navbar Part ================= */}
-            <Navbar />
-
             {/* ================= About Header Part ================= */}
             <section className='container mt-[85px] flex justify-between'>
 
@@ -184,9 +179,6 @@ const About = () => {
                     </ul>
                 </div>
             </section>
-
-            {/* ================= Footer part ================= */}
-            <Footer />
         </>
     )
 }

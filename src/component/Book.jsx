@@ -70,9 +70,6 @@ const Book = () => {
 
     return (
         <>
-            {/* ================= Navbar part ================= */}
-            <Navbar />
-
             {/* ================= Booking part ================= */}
             <section >
                 
@@ -134,9 +131,6 @@ const Book = () => {
                     </ul>
                 </form>
             </section>
-
-            {/* ================= Footer part ================= */}
-            <Footer />
         </>
     )
 }

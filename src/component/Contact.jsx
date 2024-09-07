@@ -48,9 +48,6 @@ const Contact = () => {
 
     return (
         <>
-            {/* ============== For Navbar ============== */}
-            <Navbar />
-
             {/* ============== Contact Part Start ============== */}
             <section>
                 <header className='container text-center mt-4'>
@@ -120,9 +117,6 @@ const Contact = () => {
                     </ul>
                 </div>
             </section>
-
-            {/* ============== For Footer ============== */}
-            <Footer />
         </>
     )
 }

@@ -14,9 +14,6 @@ import { HiOutlineMapPin, HiOutlineReceiptPercent } from 'react-icons/hi2'
 const Homepage = () => {
     return (
         <>
-            {/* ================= Navbar part ================= */}
-            <Navbar />
-
             {/* ================= Banner part ================= */}
             <section className='relative'>
                 <img src='/banner_bg.png' alt="banner_image" className='bg-cover w-full' />
@@ -276,9 +273,6 @@ const Homepage = () => {
                     </div>
                 </ul>
             </section>
-
-            {/* ================= Footer part ================= */}
-            <Footer />
         </>
     )
 }

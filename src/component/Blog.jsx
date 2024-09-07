@@ -17,9 +17,6 @@ const Blog = () => {
 
     return (
         <>
-            {/* ================= Navbar Part ================= */}
-            <Navbar />
-
             {/* ================= Blog Head Part ================= */}
             <section className='container text-center mt-[68px]'>
                 <h1 className='font-PlayfairD font-normal text-[100px] leading-[96px]'>Our Blog & Articles</h1>
@@ -40,11 +37,7 @@ const Blog = () => {
                         </ul>
                     ))
                 }
-
             </section>
-
-            {/* ================= Footer Part ================= */}
-            <Footer />
         </>
     )
 }

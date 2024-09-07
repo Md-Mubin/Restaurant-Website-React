@@ -1,7 +1,5 @@
 // ==================== All Import
 import React, { useEffect, useState } from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
 
 const Manu = () => {
 
@@ -17,9 +15,6 @@ const Manu = () => {
 
     return (
         <>
-            {/* ================= Navbar part ================= */}
-            <Navbar />
-
             {/* ================= Manu Selection part ================= */}
             <section className='container mt-[85px] text-center'>
                 <h1 className='font-PlayfairD font-normal text-[100px] leading-[96px]'>Our Manu</h1>
@@ -74,9 +69,6 @@ const Manu = () => {
                     </ul>
                 </ul>
             </section >
-
-            {/* ================= Footer part ================= */}
-            < Footer />
         </>
     )
 }

@@ -1,14 +1,9 @@
 // ==================== All Import
 import React       from 'react'
-import Navbar      from './Navbar'
-import Footer      from './Footer'
 
 const Blog_burger_details = () => {
     return (
         <>
-            {/* ================= Navbar part ================= */}
-            <Navbar />
-
             {/* ================= Item's Images ================= */}
             <section className='container mt-12 text-center'>
                 <h1 className='font-PlayfairD font-medium text-[55px] leading-[60px]'>The secret tips & tricks to prepare a perfect burger & pizza for our customers</h1>
@@ -89,9 +84,6 @@ const Blog_burger_details = () => {
                     </ul>
                 </div>
             </section>
-
-            {/* ================= Footer part ================= */}
-            <Footer />
         </>
     )
 }
